@@ -8,61 +8,68 @@ body
 #headSection
 {
     background-color: rgb(48, 72, 129);
-    height: 200px;
+    height: 300px;
     width: 100%;
     margin: auto;
+}
+
+#picDiv{
+    float: left;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 300px;
 }
 
 #profilePic
 {
     display: block;
     margin: auto;
-    padding: 20px;
-    height: auto;
-    width: 160px;
-    float: left;
+    margin-left: 20px;
+    height: 60%;
     border-radius: 50%;
 }
 
 #info
 {
-    width: 35%;
-    float: right;
+    float: left;
     margin-top: auto;
+    border: 1px solid black;
 }
 
 #detailList
 {
     text-align: left;
-    margin: auto;
     color: aliceblue;
     font-style: oblique;
     font-size: large;
+    
 }
 
 #name
 {
+    font-size: xx-large;
     text-align: left;
     color: aliceblue;
-    font-size: 250%;
     margin-bottom: 0%;
+    margin-left: 40px;
 }
 
 #ocupation
 {
     text-align: left;
     color: aliceblue;
-    font-size: 200%;
     margin-top: 0%;
+    margin-left: 40px;
 }
 
 #about_aside
 {
     display: inline-block;
-    width: 10%;
+    width: 20%;
     margin: auto;
     text-align: center;
-    font-size: x-large;
+    justify-content: center;
 }
 
 #about
@@ -70,8 +77,9 @@ body
     font-size: large;
     display: inline-block;
     margin: auto;
-    width: 85%;
+    width: 75%;
     text-align: left;
+    justify-content: center;
 }
 
 #body_Section
@@ -101,7 +109,8 @@ body
 
 .detail 
 {
-    margin: 20px;
+    margin-top: 20px;
+    list-style: none;
 }
 
 .heads
