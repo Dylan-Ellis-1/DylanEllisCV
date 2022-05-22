@@ -61,30 +61,6 @@ body
     margin-left: 50px;
 }
 
-#about
-{
-    font-size: large;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#headAbout
-{
-    width: 20%;
-    display: inline-block;
-    height: 100%;
-    text-align: center;
-}
-
-#parAbout
-{
-    width: 70%;
-    display: inline-block;
-    text-align: left;
-}
-
 #body_Section
 {
     height: 100%;
@@ -117,22 +93,41 @@ body
     color: aliceblue;
 }
 
-#proDiv{
-    height:100%;
-    text-align: center;
-    position: relative;
-}
-
-.date
+#sideDiv
 {
     width: 30%;
     display: inline-block;
 }
 
-.edu
+#expDiv
 {
     width: 65%;
     display: inline-block;
+    font-size: large;
+    text-align: left;
+}
+
+.about
+{
+    font-size: large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSec
+{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+
+.rightSec
+{
+    width: 70%;
+    display: inline-block;
+    text-align: left;
 }
 
 .detail 
@@ -211,18 +206,15 @@ body
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-}
-  
-.flip-card-front 
-{
+    text-align: center;
+    vertical-align:  middle;
+    margin: auto;
     background-color: rgba(48, 72, 129);
     color: aliceblue;
 }
   
 .flip-card-back 
 {
-    background-color: rgba(48, 72, 129);
-    color: aliceblue;
     transform: rotateY(180deg);
 }
 
