@@ -5,6 +5,12 @@ body
     background-color: slategrey;
 }
 
+#email
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 #headSection
 {
     background-color: rgb(48, 72, 129);
